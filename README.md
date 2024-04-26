@@ -55,13 +55,13 @@ Injection script:
 >```
 
 At first the injection caused a seg fault, but it was likely caused by comments, because shortly after, I ran it again and it passed
+    
     ```bash
         ./hex2raw < ctarget.lv2 | ./ctarget
         Cookie: 0x23f306d5
         Type string:Touch2!: You called touch2(0x23f306d5)
         Valid solution for level 2 with target ctarget
         PASS
-
     ```
 
 
