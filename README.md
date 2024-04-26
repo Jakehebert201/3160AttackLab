@@ -113,7 +113,7 @@ The new memory address is: 0x5551fa10 + 0x28 = **0x5551fa38**. This gets injecte
     Type string:Touch3!: You called touch3("23f306d5")
     Valid solution for level 3 with target ctarget
     PASS
-    ```
+```
 
 ## Phase 4
 
