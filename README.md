@@ -52,7 +52,7 @@ Injection script:
 >
 >/* Address of touch2 */
 >f4 1d 40 00 00 00 00 00
-```
+>```
 
 At first the injection caused a seg fault, but it was likely caused by comments, because shortly after, I ran it again and it passed
     ```bash
