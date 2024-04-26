@@ -108,9 +108,8 @@ The new memory address is: 0x5551fa10 + 0x28 = **0x5551fa38**. This gets injecte
 >   11 1f 40 00 00 00 00 00
 >
 >   /* Hex translation of cookie */
->   32 33 66 33 30 36 64 35 00
-
-    ```
+>   32 33 66 33 30 36 64 35 00 
+>```
 
 ```bash
     Cookie: 0x23f306d5
